@@ -12,7 +12,7 @@ export const Header = () => {
                 </div>
             </div>
             <div className="flex max-h-80 pl-[24px] pt-[8px] pr-[24px] justify-between">
-                <div className="flex items-center gap-8 pt-[15px] pb-[11px] text-[14px] text-gray-500">
+                <div className="flex items-center gap-8 pt-[15px] pb-[11px] text-[14px] text-gray-500 bg-amber-200 p-5 rounded-2xl">
                     <img src={logo} alt="" className="h-[32px] mr-10" />
                     <Link to="/" className={location.pathname === "/" ? "font-bold text-black" : "hover:text-gray-700"}>LADIES</Link>
                     <Link to="/men" className={location.pathname === "/men" ? "font-bold text-black" : "hover:text-gray-700"}>MEN</Link>
